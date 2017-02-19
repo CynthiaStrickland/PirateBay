@@ -15,6 +15,12 @@
 		819135801E5918E200FA2EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */; };
 		8191358B1E5918E200FA2EE1 /* PirateBayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191358A1E5918E200FA2EE1 /* PirateBayTests.swift */; };
 		819135961E5918E200FA2EE1 /* PirateBayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819135951E5918E200FA2EE1 /* PirateBayUITests.swift */; };
+		819135A41E5919AE00FA2EE1 /* AppLaunch_Icon in Resources */ = {isa = PBXBuildFile; fileRef = 819135A31E5919AE00FA2EE1 /* AppLaunch_Icon */; };
+		819135A61E591B1600FA2EE1 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 819135A51E591B1600FA2EE1 /* assets */; };
+		819135A81E591B1D00FA2EE1 /* creditcard in Resources */ = {isa = PBXBuildFile; fileRef = 819135A71E591B1D00FA2EE1 /* creditcard */; };
+		819135AA1E591B3100FA2EE1 /* poster in Resources */ = {isa = PBXBuildFile; fileRef = 819135A91E591B3100FA2EE1 /* poster */; };
+		819135AC1E591B3A00FA2EE1 /* Stars in Resources */ = {isa = PBXBuildFile; fileRef = 819135AB1E591B3A00FA2EE1 /* Stars */; };
+		819135AE1E591B4300FA2EE1 /* TabBarIcon in Resources */ = {isa = PBXBuildFile; fileRef = 819135AD1E591B4300FA2EE1 /* TabBarIcon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +42,25 @@
 
 /* Begin PBXFileReference section */
 		8191356F1E5918E200FA2EE1 /* PirateBay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PirateBay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		819135721E5918E200FA2EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		819135741E5918E200FA2EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		819135721E5918E200FA2EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = PirateBay/AppDelegate.swift; sourceTree = "<group>"; };
+		819135741E5918E200FA2EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = PirateBay/ViewController.swift; sourceTree = "<group>"; };
 		819135771E5918E200FA2EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8191357A1E5918E200FA2EE1 /* PirateBay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PirateBay.xcdatamodel; sourceTree = "<group>"; };
-		8191357C1E5918E200FA2EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8191357C1E5918E200FA2EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PirateBay/Assets.xcassets; sourceTree = "<group>"; };
 		8191357F1E5918E200FA2EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		819135811E5918E200FA2EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819135811E5918E200FA2EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PirateBay/Info.plist; sourceTree = "<group>"; };
 		819135861E5918E200FA2EE1 /* PirateBayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateBayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8191358A1E5918E200FA2EE1 /* PirateBayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateBayTests.swift; sourceTree = "<group>"; };
 		8191358C1E5918E200FA2EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		819135911E5918E200FA2EE1 /* PirateBayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateBayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		819135951E5918E200FA2EE1 /* PirateBayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateBayUITests.swift; sourceTree = "<group>"; };
 		819135971E5918E200FA2EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819135A31E5919AE00FA2EE1 /* AppLaunch_Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppLaunch_Icon; sourceTree = "<group>"; };
+		819135A51E591B1600FA2EE1 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		819135A71E591B1D00FA2EE1 /* creditcard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = creditcard; sourceTree = "<group>"; };
+		819135A91E591B3100FA2EE1 /* poster */ = {isa = PBXFileReference; lastKnownFileType = folder; path = poster; sourceTree = "<group>"; };
+		819135AB1E591B3A00FA2EE1 /* Stars */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Stars; sourceTree = "<group>"; };
+		819135AD1E591B4300FA2EE1 /* TabBarIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TabBarIcon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +91,24 @@
 		819135661E5918E200FA2EE1 = {
 			isa = PBXGroup;
 			children = (
+				819135721E5918E200FA2EE1 /* AppDelegate.swift */,
+				819135B11E591B8400FA2EE1 /* MODALS */,
+				819135B01E591B7C00FA2EE1 /* CONTROLLERS */,
+				819135AF1E591B7000FA2EE1 /* VIEWS */,
 				819135711E5918E200FA2EE1 /* PirateBay */,
 				819135891E5918E200FA2EE1 /* PirateBayTests */,
 				819135941E5918E200FA2EE1 /* PirateBayUITests */,
 				819135701E5918E200FA2EE1 /* Products */,
+				819135791E5918E200FA2EE1 /* PirateBay.xcdatamodeld */,
+				8191357C1E5918E200FA2EE1 /* Assets.xcassets */,
+				819135811E5918E200FA2EE1 /* Info.plist */,
+				819135B21E591B8A00FA2EE1 /* SUPPORT FILES */,
+				819135A31E5919AE00FA2EE1 /* AppLaunch_Icon */,
+				819135A71E591B1D00FA2EE1 /* creditcard */,
+				819135A91E591B3100FA2EE1 /* poster */,
+				819135AB1E591B3A00FA2EE1 /* Stars */,
+				819135AD1E591B4300FA2EE1 /* TabBarIcon */,
+				819135A51E591B1600FA2EE1 /* assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +125,6 @@
 		819135711E5918E200FA2EE1 /* PirateBay */ = {
 			isa = PBXGroup;
 			children = (
-				819135721E5918E200FA2EE1 /* AppDelegate.swift */,
-				819135741E5918E200FA2EE1 /* ViewController.swift */,
-				819135761E5918E200FA2EE1 /* Main.storyboard */,
-				8191357C1E5918E200FA2EE1 /* Assets.xcassets */,
-				8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */,
-				819135811E5918E200FA2EE1 /* Info.plist */,
-				819135791E5918E200FA2EE1 /* PirateBay.xcdatamodeld */,
 			);
 			path = PirateBay;
 			sourceTree = "<group>";
@@ -126,6 +145,37 @@
 				819135971E5918E200FA2EE1 /* Info.plist */,
 			);
 			path = PirateBayUITests;
+			sourceTree = "<group>";
+		};
+		819135AF1E591B7000FA2EE1 /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				819135761E5918E200FA2EE1 /* Main.storyboard */,
+				8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */,
+			);
+			name = VIEWS;
+			sourceTree = "<group>";
+		};
+		819135B01E591B7C00FA2EE1 /* CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				819135741E5918E200FA2EE1 /* ViewController.swift */,
+			);
+			name = CONTROLLERS;
+			sourceTree = "<group>";
+		};
+		819135B11E591B8400FA2EE1 /* MODALS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MODALS;
+			sourceTree = "<group>";
+		};
+		819135B21E591B8A00FA2EE1 /* SUPPORT FILES */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "SUPPORT FILES";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +288,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819135A61E591B1600FA2EE1 /* assets in Resources */,
+				819135A81E591B1D00FA2EE1 /* creditcard in Resources */,
+				819135AC1E591B3A00FA2EE1 /* Stars in Resources */,
+				819135AA1E591B3100FA2EE1 /* poster in Resources */,
 				819135801E5918E200FA2EE1 /* LaunchScreen.storyboard in Resources */,
 				8191357D1E5918E200FA2EE1 /* Assets.xcassets in Resources */,
+				819135A41E5919AE00FA2EE1 /* AppLaunch_Icon in Resources */,
 				819135781E5918E200FA2EE1 /* Main.storyboard in Resources */,
+				819135AE1E591B4300FA2EE1 /* TabBarIcon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +365,7 @@
 				819135771E5918E200FA2EE1 /* Base */,
 			);
 			name = Main.storyboard;
+			path = PirateBay;
 			sourceTree = "<group>";
 		};
 		8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */ = {
@@ -317,6 +374,7 @@
 				8191357F1E5918E200FA2EE1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = PirateBay;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -408,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -546,7 +604,8 @@
 				8191357A1E5918E200FA2EE1 /* PirateBay.xcdatamodel */,
 			);
 			currentVersion = 8191357A1E5918E200FA2EE1 /* PirateBay.xcdatamodel */;
-			path = PirateBay.xcdatamodeld;
+			name = PirateBay.xcdatamodeld;
+			path = PirateBay/PirateBay.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
