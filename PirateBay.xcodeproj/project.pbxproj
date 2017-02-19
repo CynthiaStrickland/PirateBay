@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		819135731E5918E200FA2EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819135721E5918E200FA2EE1 /* AppDelegate.swift */; };
+		819135751E5918E200FA2EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819135741E5918E200FA2EE1 /* ViewController.swift */; };
+		819135781E5918E200FA2EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819135761E5918E200FA2EE1 /* Main.storyboard */; };
+		8191357B1E5918E200FA2EE1 /* PirateBay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 819135791E5918E200FA2EE1 /* PirateBay.xcdatamodeld */; };
+		8191357D1E5918E200FA2EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8191357C1E5918E200FA2EE1 /* Assets.xcassets */; };
+		819135801E5918E200FA2EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */; };
+		8191358B1E5918E200FA2EE1 /* PirateBayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191358A1E5918E200FA2EE1 /* PirateBayTests.swift */; };
+		819135961E5918E200FA2EE1 /* PirateBayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819135951E5918E200FA2EE1 /* PirateBayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		819135871E5918E200FA2EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819135671E5918E200FA2EE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8191356E1E5918E200FA2EE1;
+			remoteInfo = PirateBay;
+		};
+		819135921E5918E200FA2EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819135671E5918E200FA2EE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8191356E1E5918E200FA2EE1;
+			remoteInfo = PirateBay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8191356F1E5918E200FA2EE1 /* PirateBay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PirateBay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		819135721E5918E200FA2EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		819135741E5918E200FA2EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		819135771E5918E200FA2EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8191357A1E5918E200FA2EE1 /* PirateBay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PirateBay.xcdatamodel; sourceTree = "<group>"; };
+		8191357C1E5918E200FA2EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8191357F1E5918E200FA2EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		819135811E5918E200FA2EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819135861E5918E200FA2EE1 /* PirateBayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateBayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8191358A1E5918E200FA2EE1 /* PirateBayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateBayTests.swift; sourceTree = "<group>"; };
+		8191358C1E5918E200FA2EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819135911E5918E200FA2EE1 /* PirateBayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateBayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		819135951E5918E200FA2EE1 /* PirateBayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateBayUITests.swift; sourceTree = "<group>"; };
+		819135971E5918E200FA2EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8191356C1E5918E200FA2EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819135831E5918E200FA2EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8191358E1E5918E200FA2EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		819135661E5918E200FA2EE1 = {
+			isa = PBXGroup;
+			children = (
+				819135711E5918E200FA2EE1 /* PirateBay */,
+				819135891E5918E200FA2EE1 /* PirateBayTests */,
+				819135941E5918E200FA2EE1 /* PirateBayUITests */,
+				819135701E5918E200FA2EE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		819135701E5918E200FA2EE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8191356F1E5918E200FA2EE1 /* PirateBay.app */,
+				819135861E5918E200FA2EE1 /* PirateBayTests.xctest */,
+				819135911E5918E200FA2EE1 /* PirateBayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819135711E5918E200FA2EE1 /* PirateBay */ = {
+			isa = PBXGroup;
+			children = (
+				819135721E5918E200FA2EE1 /* AppDelegate.swift */,
+				819135741E5918E200FA2EE1 /* ViewController.swift */,
+				819135761E5918E200FA2EE1 /* Main.storyboard */,
+				8191357C1E5918E200FA2EE1 /* Assets.xcassets */,
+				8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */,
+				819135811E5918E200FA2EE1 /* Info.plist */,
+				819135791E5918E200FA2EE1 /* PirateBay.xcdatamodeld */,
+			);
+			path = PirateBay;
+			sourceTree = "<group>";
+		};
+		819135891E5918E200FA2EE1 /* PirateBayTests */ = {
+			isa = PBXGroup;
+			children = (
+				8191358A1E5918E200FA2EE1 /* PirateBayTests.swift */,
+				8191358C1E5918E200FA2EE1 /* Info.plist */,
+			);
+			path = PirateBayTests;
+			sourceTree = "<group>";
+		};
+		819135941E5918E200FA2EE1 /* PirateBayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				819135951E5918E200FA2EE1 /* PirateBayUITests.swift */,
+				819135971E5918E200FA2EE1 /* Info.plist */,
+			);
+			path = PirateBayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8191356E1E5918E200FA2EE1 /* PirateBay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8191359A1E5918E200FA2EE1 /* Build configuration list for PBXNativeTarget "PirateBay" */;
+			buildPhases = (
+				8191356B1E5918E200FA2EE1 /* Sources */,
+				8191356C1E5918E200FA2EE1 /* Frameworks */,
+				8191356D1E5918E200FA2EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PirateBay;
+			productName = PirateBay;
+			productReference = 8191356F1E5918E200FA2EE1 /* PirateBay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		819135851E5918E200FA2EE1 /* PirateBayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8191359D1E5918E200FA2EE1 /* Build configuration list for PBXNativeTarget "PirateBayTests" */;
+			buildPhases = (
+				819135821E5918E200FA2EE1 /* Sources */,
+				819135831E5918E200FA2EE1 /* Frameworks */,
+				819135841E5918E200FA2EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819135881E5918E200FA2EE1 /* PBXTargetDependency */,
+			);
+			name = PirateBayTests;
+			productName = PirateBayTests;
+			productReference = 819135861E5918E200FA2EE1 /* PirateBayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		819135901E5918E200FA2EE1 /* PirateBayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819135A01E5918E200FA2EE1 /* Build configuration list for PBXNativeTarget "PirateBayUITests" */;
+			buildPhases = (
+				8191358D1E5918E200FA2EE1 /* Sources */,
+				8191358E1E5918E200FA2EE1 /* Frameworks */,
+				8191358F1E5918E200FA2EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819135931E5918E200FA2EE1 /* PBXTargetDependency */,
+			);
+			name = PirateBayUITests;
+			productName = PirateBayUITests;
+			productReference = 819135911E5918E200FA2EE1 /* PirateBayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		819135671E5918E200FA2EE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Fenix Design";
+				TargetAttributes = {
+					8191356E1E5918E200FA2EE1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = LK662Y5U4K;
+						ProvisioningStyle = Automatic;
+					};
+					819135851E5918E200FA2EE1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = LK662Y5U4K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8191356E1E5918E200FA2EE1;
+					};
+					819135901E5918E200FA2EE1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = LK662Y5U4K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8191356E1E5918E200FA2EE1;
+					};
+				};
+			};
+			buildConfigurationList = 8191356A1E5918E200FA2EE1 /* Build configuration list for PBXProject "PirateBay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 819135661E5918E200FA2EE1;
+			productRefGroup = 819135701E5918E200FA2EE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8191356E1E5918E200FA2EE1 /* PirateBay */,
+				819135851E5918E200FA2EE1 /* PirateBayTests */,
+				819135901E5918E200FA2EE1 /* PirateBayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8191356D1E5918E200FA2EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819135801E5918E200FA2EE1 /* LaunchScreen.storyboard in Resources */,
+				8191357D1E5918E200FA2EE1 /* Assets.xcassets in Resources */,
+				819135781E5918E200FA2EE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819135841E5918E200FA2EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8191358F1E5918E200FA2EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8191356B1E5918E200FA2EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819135751E5918E200FA2EE1 /* ViewController.swift in Sources */,
+				8191357B1E5918E200FA2EE1 /* PirateBay.xcdatamodeld in Sources */,
+				819135731E5918E200FA2EE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819135821E5918E200FA2EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8191358B1E5918E200FA2EE1 /* PirateBayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8191358D1E5918E200FA2EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819135961E5918E200FA2EE1 /* PirateBayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		819135881E5918E200FA2EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8191356E1E5918E200FA2EE1 /* PirateBay */;
+			targetProxy = 819135871E5918E200FA2EE1 /* PBXContainerItemProxy */;
+		};
+		819135931E5918E200FA2EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8191356E1E5918E200FA2EE1 /* PirateBay */;
+			targetProxy = 819135921E5918E200FA2EE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		819135761E5918E200FA2EE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819135771E5918E200FA2EE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8191357F1E5918E200FA2EE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		819135981E5918E200FA2EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		819135991E5918E200FA2EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8191359B1E5918E200FA2EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LK662Y5U4K;
+				INFOPLIST_FILE = PirateBay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FenixDesignz.PirateBay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8191359C1E5918E200FA2EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LK662Y5U4K;
+				INFOPLIST_FILE = PirateBay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FenixDesignz.PirateBay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8191359E1E5918E200FA2EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LK662Y5U4K;
+				INFOPLIST_FILE = PirateBayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FenixDesignz.PirateBayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PirateBay.app/PirateBay";
+			};
+			name = Debug;
+		};
+		8191359F1E5918E200FA2EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LK662Y5U4K;
+				INFOPLIST_FILE = PirateBayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FenixDesignz.PirateBayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PirateBay.app/PirateBay";
+			};
+			name = Release;
+		};
+		819135A11E5918E200FA2EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LK662Y5U4K;
+				INFOPLIST_FILE = PirateBayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FenixDesignz.PirateBayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PirateBay;
+			};
+			name = Debug;
+		};
+		819135A21E5918E200FA2EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LK662Y5U4K;
+				INFOPLIST_FILE = PirateBayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FenixDesignz.PirateBayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PirateBay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8191356A1E5918E200FA2EE1 /* Build configuration list for PBXProject "PirateBay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819135981E5918E200FA2EE1 /* Debug */,
+				819135991E5918E200FA2EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8191359A1E5918E200FA2EE1 /* Build configuration list for PBXNativeTarget "PirateBay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8191359B1E5918E200FA2EE1 /* Debug */,
+				8191359C1E5918E200FA2EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8191359D1E5918E200FA2EE1 /* Build configuration list for PBXNativeTarget "PirateBayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8191359E1E5918E200FA2EE1 /* Debug */,
+				8191359F1E5918E200FA2EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		819135A01E5918E200FA2EE1 /* Build configuration list for PBXNativeTarget "PirateBayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819135A11E5918E200FA2EE1 /* Debug */,
+				819135A21E5918E200FA2EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		819135791E5918E200FA2EE1 /* PirateBay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8191357A1E5918E200FA2EE1 /* PirateBay.xcdatamodel */,
+			);
+			currentVersion = 8191357A1E5918E200FA2EE1 /* PirateBay.xcdatamodel */;
+			path = PirateBay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 819135671E5918E200FA2EE1 /* Project object */;
+}
