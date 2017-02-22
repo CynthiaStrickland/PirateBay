@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="scT-7c-05Y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12100" systemVersion="16E144f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="scT-7c-05Y">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12072"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--Pirate Bay-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pirate_Bay" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="PirateBay" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -33,6 +33,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="350" id="KGk-qz-Rcd"/>
                                                 </constraints>
+                                                <connections>
+                                                    <segue destination="GRB-LU-8j1" kind="embed" id="exv-Xu-YFo"/>
+                                                </connections>
                                             </containerView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="guv-bp-NgM" userLabel="Toy CollectionView">
                                                 <rect key="frame" x="0.0" y="380" width="682.5" height="170"/>
@@ -185,10 +188,55 @@
                     <navigationItem key="navigationItem" title="Pirate Bay" id="rAj-CG-gOl"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1024" height="900"/>
+                    <connections>
+                        <outlet property="pageView" destination="1Bf-of-eWI" id="Mhe-VI-MFI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="757.03125" y="37.5"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="Zyy-ee-bWL">
+            <objects>
+                <pageViewController storyboardIdentifier="promoPageVC" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="GRB-LU-8j1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pa2-1q-2lL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1427" y="-126"/>
+        </scene>
+        <!--Promo Content View Controller-->
+        <scene sceneID="3YB-G4-6LV">
+            <objects>
+                <viewController storyboardIdentifier="PromoContentVC" id="502-Hi-SHo" customClass="PromoContentViewController" customModule="PirateBay" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Y8-NC-QQR"/>
+                        <viewControllerLayoutGuide type="bottom" id="4eB-JU-Ff9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PQP-Ng-SA1">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="piratebattle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NMr-GG-NyY">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="GPy-BN-HyL"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NMr-GG-NyY" firstAttribute="leading" secondItem="PQP-Ng-SA1" secondAttribute="leading" id="Q6J-pu-V13"/>
+                            <constraint firstAttribute="trailing" secondItem="NMr-GG-NyY" secondAttribute="trailing" id="UTa-4R-xE8"/>
+                            <constraint firstItem="NMr-GG-NyY" firstAttribute="top" secondItem="PQP-Ng-SA1" secondAttribute="top" id="no4-K0-zHM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="promoImageView" destination="NMr-GG-NyY" id="Cof-jD-TEn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mjh-Iz-isx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1427" y="-620"/>
         </scene>
         <!--Item-->
         <scene sceneID="HFp-IM-Kz4">
@@ -212,7 +260,6 @@
         <!--Item 2-->
         <scene sceneID="fhh-gE-lrE">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="npF-ov-eGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xl9-6y-wQW" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hUK-vq-3nh"/>
@@ -225,13 +272,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="HZl-Xv-55I"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="npF-ov-eGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="66" y="1063"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="oMc-8C-Uea">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bFg-ZW-eQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController id="scT-7c-05Y" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="IPe-27-lFy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -243,8 +290,12 @@
                         <segue destination="xl9-6y-wQW" kind="relationship" relationship="viewControllers" id="ZHB-1L-SFS"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFg-ZW-eQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-663" y="739"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="piratebattle.jpg" width="2350" height="1080"/>
+    </resources>
 </document>
