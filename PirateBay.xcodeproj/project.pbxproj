@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		819135731E5918E200FA2EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819135721E5918E200FA2EE1 /* AppDelegate.swift */; };
 		819135751E5918E200FA2EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819135741E5918E200FA2EE1 /* ViewController.swift */; };
-		819135781E5918E200FA2EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819135761E5918E200FA2EE1 /* Main.storyboard */; };
 		8191357D1E5918E200FA2EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8191357C1E5918E200FA2EE1 /* Assets.xcassets */; };
 		819135801E5918E200FA2EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */; };
 		8191358B1E5918E200FA2EE1 /* PirateBayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191358A1E5918E200FA2EE1 /* PirateBayTests.swift */; };
@@ -20,6 +19,7 @@
 		819135AA1E591B3100FA2EE1 /* poster in Resources */ = {isa = PBXBuildFile; fileRef = 819135A91E591B3100FA2EE1 /* poster */; };
 		819135AC1E591B3A00FA2EE1 /* Stars in Resources */ = {isa = PBXBuildFile; fileRef = 819135AB1E591B3A00FA2EE1 /* Stars */; };
 		819135AE1E591B4300FA2EE1 /* TabBarIcon in Resources */ = {isa = PBXBuildFile; fileRef = 819135AD1E591B4300FA2EE1 /* TabBarIcon */; };
+		819135B41E5E4AF400FA2EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819135B31E5E4AF400FA2EE1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		8191356F1E5918E200FA2EE1 /* PirateBay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PirateBay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819135721E5918E200FA2EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = PirateBay/AppDelegate.swift; sourceTree = "<group>"; };
 		819135741E5918E200FA2EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = PirateBay/ViewController.swift; sourceTree = "<group>"; };
-		819135771E5918E200FA2EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8191357C1E5918E200FA2EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PirateBay/Assets.xcassets; sourceTree = "<group>"; };
 		8191357F1E5918E200FA2EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		819135811E5918E200FA2EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PirateBay/Info.plist; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		819135A91E591B3100FA2EE1 /* poster */ = {isa = PBXFileReference; lastKnownFileType = folder; path = poster; sourceTree = "<group>"; };
 		819135AB1E591B3A00FA2EE1 /* Stars */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Stars; sourceTree = "<group>"; };
 		819135AD1E591B4300FA2EE1 /* TabBarIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TabBarIcon; sourceTree = "<group>"; };
+		819135B31E5E4AF400FA2EE1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,7 @@
 		819135AF1E591B7000FA2EE1 /* VIEWS */ = {
 			isa = PBXGroup;
 			children = (
-				819135761E5918E200FA2EE1 /* Main.storyboard */,
+				819135B31E5E4AF400FA2EE1 /* Main.storyboard */,
 				8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */,
 			);
 			name = VIEWS;
@@ -291,8 +291,8 @@
 				819135AA1E591B3100FA2EE1 /* poster in Resources */,
 				819135801E5918E200FA2EE1 /* LaunchScreen.storyboard in Resources */,
 				8191357D1E5918E200FA2EE1 /* Assets.xcassets in Resources */,
+				819135B41E5E4AF400FA2EE1 /* Main.storyboard in Resources */,
 				819135A41E5919AE00FA2EE1 /* AppLaunch_Icon in Resources */,
-				819135781E5918E200FA2EE1 /* Main.storyboard in Resources */,
 				819135AE1E591B4300FA2EE1 /* TabBarIcon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,15 +355,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		819135761E5918E200FA2EE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				819135771E5918E200FA2EE1 /* Base */,
-			);
-			name = Main.storyboard;
-			path = PirateBay;
-			sourceTree = "<group>";
-		};
 		8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
