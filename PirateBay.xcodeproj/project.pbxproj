@@ -10,7 +10,6 @@
 		819135731E5918E200FA2EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819135721E5918E200FA2EE1 /* AppDelegate.swift */; };
 		819135751E5918E200FA2EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819135741E5918E200FA2EE1 /* ViewController.swift */; };
 		819135781E5918E200FA2EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819135761E5918E200FA2EE1 /* Main.storyboard */; };
-		8191357B1E5918E200FA2EE1 /* PirateBay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 819135791E5918E200FA2EE1 /* PirateBay.xcdatamodeld */; };
 		8191357D1E5918E200FA2EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8191357C1E5918E200FA2EE1 /* Assets.xcassets */; };
 		819135801E5918E200FA2EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8191357E1E5918E200FA2EE1 /* LaunchScreen.storyboard */; };
 		8191358B1E5918E200FA2EE1 /* PirateBayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191358A1E5918E200FA2EE1 /* PirateBayTests.swift */; };
@@ -45,7 +44,6 @@
 		819135721E5918E200FA2EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = PirateBay/AppDelegate.swift; sourceTree = "<group>"; };
 		819135741E5918E200FA2EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = PirateBay/ViewController.swift; sourceTree = "<group>"; };
 		819135771E5918E200FA2EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8191357A1E5918E200FA2EE1 /* PirateBay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PirateBay.xcdatamodel; sourceTree = "<group>"; };
 		8191357C1E5918E200FA2EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PirateBay/Assets.xcassets; sourceTree = "<group>"; };
 		8191357F1E5918E200FA2EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		819135811E5918E200FA2EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PirateBay/Info.plist; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 				819135891E5918E200FA2EE1 /* PirateBayTests */,
 				819135941E5918E200FA2EE1 /* PirateBayUITests */,
 				819135701E5918E200FA2EE1 /* Products */,
-				819135791E5918E200FA2EE1 /* PirateBay.xcdatamodeld */,
 				8191357C1E5918E200FA2EE1 /* Assets.xcassets */,
 				819135811E5918E200FA2EE1 /* Info.plist */,
 				819135B21E591B8A00FA2EE1 /* SUPPORT FILES */,
@@ -322,7 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				819135751E5918E200FA2EE1 /* ViewController.swift in Sources */,
-				8191357B1E5918E200FA2EE1 /* PirateBay.xcdatamodeld in Sources */,
 				819135731E5918E200FA2EE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,20 +592,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		819135791E5918E200FA2EE1 /* PirateBay.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8191357A1E5918E200FA2EE1 /* PirateBay.xcdatamodel */,
-			);
-			currentVersion = 8191357A1E5918E200FA2EE1 /* PirateBay.xcdatamodel */;
-			name = PirateBay.xcdatamodeld;
-			path = PirateBay/PirateBay.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 819135671E5918E200FA2EE1 /* Project object */;
 }
