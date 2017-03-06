@@ -28,7 +28,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN6-av-crm" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="-64" width="1024" height="750"/>
                                         <subviews>
-                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Bf-of-eWI">
+                                            <containerView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Bf-of-eWI">
                                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="350"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="350" id="KGk-qz-Rcd"/>
@@ -199,7 +199,7 @@
         <!--Page View Controller-->
         <scene sceneID="Zyy-ee-bWL">
             <objects>
-                <pageViewController storyboardIdentifier="promoPageVC" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="GRB-LU-8j1" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="promoPageVC" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="GRB-LU-8j1" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pa2-1q-2lL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1427" y="-126"/>
