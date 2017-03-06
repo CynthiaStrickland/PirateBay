@@ -13,7 +13,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var pageView: UIView!
     
     var pageViewController : UIPageViewController?
-    var arrPageImage = ["piratebattle.jpg", "piratemap.jpg", "piratesofcarribeanposter.png"]
+    var arrPageImage = ["piratebattle", "piratemap", "piratesofcaribbean"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
