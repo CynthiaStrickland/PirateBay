@@ -569,6 +569,7 @@
 				8191359C1E5918E200FA2EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8191359D1E5918E200FA2EE1 /* Build configuration list for PBXNativeTarget "PirateBayTests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +578,7 @@
 				8191359F1E5918E200FA2EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		819135A01E5918E200FA2EE1 /* Build configuration list for PBXNativeTarget "PirateBayUITests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +587,7 @@
 				819135A21E5918E200FA2EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

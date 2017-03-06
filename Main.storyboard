@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12100" systemVersion="16E144f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="scT-7c-05Y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12100" systemVersion="16E175b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="scT-7c-05Y">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -207,7 +207,7 @@
         <!--Promo Content View Controller-->
         <scene sceneID="3YB-G4-6LV">
             <objects>
-                <viewController storyboardIdentifier="PromoContentVC" id="502-Hi-SHo" customClass="PromoContentViewController" customModule="PirateBay" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="promoContentVC" id="502-Hi-SHo" customClass="PromoContentViewController" customModule="PirateBay" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Y8-NC-QQR"/>
                         <viewControllerLayoutGuide type="bottom" id="4eB-JU-Ff9"/>
