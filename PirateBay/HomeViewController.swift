@@ -14,10 +14,13 @@ class HomeViewController: UIViewController {
     
     var pageViewController : UIPageViewController?
     var arrPageImage = ["piratebattle", "piratemap", "piratesofcaribbean"]
+    var currentIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(HomeViewController.loadNextController), userInfo: nil, repeats: true)
+        
         setPageViewController()
     }
     
@@ -45,6 +48,18 @@ class HomeViewController: UIViewController {
         
         return promoContentVC
         
+    }
+    
+    @objc private func loadNextController() {
+        currentIndex += 1
+        
+        if currentIndex == arrPageImage.count {
+            currentIndex = 0
+        }
+        
+        let nextController = getViewController(atIndex: currentIndex)
+        
+        self.pageViewController?.setViewControllers([nextController], direction: UIPageViewControllerNavigationDirection.forward, animated: true, completion: nil)
     }
 }
 
