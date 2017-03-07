@@ -11,6 +11,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var pageView: UIView!
+    @IBOutlet weak var pageControl: UIPageControl!
     
     var pageViewController : UIPageViewController?
     var arrPageImage = ["piratebattle", "piratemap", "piratesofcaribbean"]
@@ -60,6 +61,9 @@ class HomeViewController: UIViewController {
         let nextController = getViewController(atIndex: currentIndex)
         
         self.pageViewController?.setViewControllers([nextController], direction: UIPageViewControllerNavigationDirection.forward, animated: true, completion: nil)
+        
+        self.pageControl.currentPage = currentIndex
+        
     }
 }
 

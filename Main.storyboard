@@ -28,7 +28,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN6-av-crm" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="-64" width="1024" height="750"/>
                                         <subviews>
-                                            <containerView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Bf-of-eWI">
+                                            <containerView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Bf-of-eWI">
                                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="350"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="350" id="KGk-qz-Rcd"/>
@@ -141,6 +141,11 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="td1-QF-cIx">
+                                                <rect key="frame" x="493" y="296" width="39" height="37"/>
+                                                <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="currentPageIndicatorTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </pageControl>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -148,6 +153,7 @@
                                             <constraint firstItem="rKu-ph-sCb" firstAttribute="leading" secondItem="iN6-av-crm" secondAttribute="leading" constant="15" id="8E5-Ni-wha"/>
                                             <constraint firstItem="guv-bp-NgM" firstAttribute="width" secondItem="iN6-av-crm" secondAttribute="width" multiplier="2:3" id="8pO-h7-suC"/>
                                             <constraint firstItem="g1L-E2-U0K" firstAttribute="top" secondItem="GYV-Nl-FEm" secondAttribute="bottom" constant="8" id="Aks-na-qzg"/>
+                                            <constraint firstItem="td1-QF-cIx" firstAttribute="top" secondItem="1Bf-of-eWI" secondAttribute="bottom" constant="-54" id="AoM-2B-47b"/>
                                             <constraint firstItem="UPX-Er-bJq" firstAttribute="height" secondItem="guv-bp-NgM" secondAttribute="height" id="Ein-EN-AlD"/>
                                             <constraint firstItem="N0M-Jv-RxG" firstAttribute="leading" secondItem="guv-bp-NgM" secondAttribute="trailing" id="FSn-PJ-Juf"/>
                                             <constraint firstItem="N0M-Jv-RxG" firstAttribute="baseline" secondItem="guv-bp-NgM" secondAttribute="baseline" id="IdI-ra-6sm"/>
@@ -162,6 +168,7 @@
                                             <constraint firstItem="GYV-Nl-FEm" firstAttribute="top" secondItem="N0M-Jv-RxG" secondAttribute="bottom" constant="5" id="d7V-aF-hDz"/>
                                             <constraint firstAttribute="trailing" secondItem="GYV-Nl-FEm" secondAttribute="trailing" constant="15" id="dW7-Cz-voP"/>
                                             <constraint firstItem="UPX-Er-bJq" firstAttribute="top" secondItem="g1L-E2-U0K" secondAttribute="bottom" constant="-15" id="jEq-D7-hhh"/>
+                                            <constraint firstItem="td1-QF-cIx" firstAttribute="centerX" secondItem="iN6-av-crm" secondAttribute="centerX" id="nJK-cU-NPq"/>
                                             <constraint firstItem="rKu-ph-sCb" firstAttribute="top" secondItem="1Bf-of-eWI" secondAttribute="bottom" constant="15" id="qbW-as-6h6"/>
                                             <constraint firstAttribute="height" constant="750" id="qgN-e3-5gw"/>
                                             <constraint firstAttribute="trailing" secondItem="1Bf-of-eWI" secondAttribute="trailing" id="xoh-w5-1MP"/>
@@ -189,6 +196,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1024" height="900"/>
                     <connections>
+                        <outlet property="pageControl" destination="td1-QF-cIx" id="eDt-OS-UvD"/>
                         <outlet property="pageView" destination="1Bf-of-eWI" id="Mhe-VI-MFI"/>
                     </connections>
                 </viewController>
